@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <html lang="en">    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= "css/criptografia.css">
+    
+    <title>Criptografia Cesar ou Base64</title>
+</head>
+<body>
+    <center>
+        <h1>Digite o texto que será criptografado</h1>
+        <hr>
+        <div>
+            <textarea type="text" id="textoDigitado" value=' '  placeholder="Texto pra conversão" required rows="4" cols="50"></textarea>
+            <textarea type="text" id="resultado" value=' '  placeholder="Texto convertido"  rows="4" cols="50"></textarea>
+        </div>
+        <form >
+                <select name="" id="lista">
+                    <Option value="selecione" disabled selected >Seleciona a codificação</Option>
+                    <Option value="base64" id="base64">Base64</Option>
+                    <Option value="cifraCesar" id="cesar">Cifra de Cesar</Option>
+                    <input type="text" id="incremento" placeholder="Numero de incremento" style ="display:none"></input>
+                </select>
+            <div class="radios">
+                <label for="">O que você deseja?</label>
+                <input type="radio" id="codificarP"  name="tipo" value="codificar"><label>Codificar</label>
+                <input type="radio" id="decodificar" name="tipo" value="decodificar"><label>Decodificar</label>
+            </div>
+
+            <div>
+                <button id="codificacaoMensagem">Codificar Mensagem</button>
+            </div>
+            <p>ATENÇÃO: Para fazer a decodificação da mensagem é necessário copiar e colar o conteúdo do texto convertidao para a caixa de conversão.</p>                
+        </form>
+    </center>
+    <!-- scripts -->
+    <script src="./javascript/criptografia.js" type="text/javascript"></script>
+</body>
+</html>

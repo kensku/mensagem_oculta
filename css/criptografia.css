@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(226, 221, 198);
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+}
+
+textarea, textarea:required {
+    box-shadow: 4px 4px 20px rgba(100, 78, 78, 0.85);
+  }
+
+h1 {
+  width: 40%;
+  display: inline-block;
+  font-size: 26px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+
+form {
+  background: rgba(246, 246, 246, 0.91);
+  padding: 40px;
+  width: 40%;
+  margin: auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+
+#lista, #base64, #cesar, #incremento {
+  width: 100%;
+  padding: 10px 0;
+  color: #000000;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px
+}
+
+button {
+  margin-top: 20px;
+  width: 50%;
+  padding: 10px 0;
+  background: #dbd7c2a4;
+  color: #000000;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
